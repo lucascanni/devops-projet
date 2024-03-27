@@ -33,12 +33,12 @@ const EthereumLogin = () => {
             <h1 className="text-3xl font-bold mb-6">Ethereum Account Info</h1>
             {account ? (
                 <div className="space-y-4">
-                    <p>Your account: <span className="font-semibold">{account}</span></p>
-                    <p>Your ETH balance: <span className="font-semibold">{balance} ETH</span></p>
+                    <p>Votre compte: <span className="font-semibold">{account}</span></p>
+                    <p>Votre solde: <span className="font-semibold">{balance} ETH</span></p>
                 </div>
             ) : (
                 <button onClick={connectWallet} className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded transition-colors">
-                    Connect Wallet
+                    Se connecter
                 </button>
             )} <br /> <br />
             <Link
